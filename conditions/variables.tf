@@ -1,7 +1,6 @@
-variable = "environment" {
+variable "environment" {
     default = "dev"
 }
-    
 
 variable "ami_id" {
     type = string
