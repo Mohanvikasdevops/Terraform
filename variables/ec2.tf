@@ -8,7 +8,7 @@ resource "aws_instance" "example"{
 
 resource "aws_security_group" "allow_tls" {
     name = var.sg_name //this is for AWS account
-    Description = var.sg_description
+    description = var.sg_description
 
     egress {
         from_port = var.sg_from_port
